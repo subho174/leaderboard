@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import AddUserForm from "./components/AddUserForm";
 import API from "./lib/api";
 import Leaderboard from "./components/Leaderboard";
-import type { IUser } from "../../server/src/model/user.model";
+import type { IUser } from "../../server/src/types/types";
 import ClaimPoints from "./components/ClaimPoints";
 
 function App() {

@@ -1,12 +1,5 @@
 import mongoose, { model, Schema } from "mongoose";
-
-export interface IUser {
-  _id?: mongoose.Types.ObjectId;
-  name: string;
-  totalPoints: number;
-}
-
-export type IUserDocument = IUser & Document;
+import { IUserDocument } from "../types/types";
 
 const userSchema = new Schema<IUserDocument>({
   name: {

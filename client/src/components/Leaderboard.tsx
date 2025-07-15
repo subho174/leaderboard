@@ -1,5 +1,5 @@
 import { Card, CardContent } from "./ui/card";
-import type { IUser } from "../../../server/src/model/user.model";
+import type { IUser } from "../../../server/src/types/types";
 import { cn } from "../lib/utils";
 import { Button } from "./ui/button";
 import { useState } from "react";

@@ -1,8 +1,9 @@
 import { NextFunction, Request, Response } from "express";
 import asyncHandler from "../utils/asyncHandler";
-import User, { IUser } from "../model/user.model";
+import User from "../model/user.model";
 import ApiError from "../utils/ApiError";
 import ApiResponse from "../utils/ApiResponse";
+import { IUser } from "../types/types";
 
 const addUser = asyncHandler(
   async (req: Request, res: Response, next: NextFunction) => {

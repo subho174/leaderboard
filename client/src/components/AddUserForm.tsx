@@ -9,7 +9,7 @@ import { Input } from "./ui/input";
 import API from "../lib/api";
 import { toast } from "sonner";
 import { Loader2 } from "lucide-react";
-import type { IUser } from "../../../server/src/model/user.model";
+import type { IUser } from "../../../server/src/types/types";
 
 export default function AddUserForm({
   setUsers,

@@ -5,7 +5,7 @@ import {
   SelectContent,
   SelectItem,
 } from "./ui/select";
-import type { IUser } from "../../../server/src/model/user.model";
+import type { IUser } from "../../../server/src/types/types";
 import { useState, type Dispatch, type SetStateAction } from "react";
 import { Button } from "./ui/button";
 import API from "../lib/api";

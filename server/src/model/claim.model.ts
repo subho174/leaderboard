@@ -1,14 +1,7 @@
 import mongoose, { model, Schema } from "mongoose";
+import { IClaimDocument } from "../types/types";
 
-export interface IClaim {
-  _id?: mongoose.Types.ObjectId;
-  awardedTo: mongoose.Types.ObjectId;
-  claimedPoints: number;
-}
-
-export type ClaimDocument = IClaim & Document;
-
-const claimSchema = new Schema<ClaimDocument>({
+const claimSchema = new Schema<IClaimDocument>({
   awardedTo: {
     type: Schema.Types.ObjectId,
     ref: "User",
@@ -16,6 +9,6 @@ const claimSchema = new Schema<ClaimDocument>({
   claimedPoints: Number,
 });
 
-const Claim = model<ClaimDocument>("Claim", claimSchema);
+const Claim = model<IClaimDocument>("Claim", claimSchema);
 
 export default Claim;
