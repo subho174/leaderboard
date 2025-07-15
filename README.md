@@ -25,13 +25,6 @@ A full-stack leaderboard system where users can:
 ## 🔗 Live Demo (Frontend)
 https://leaderboard-xi-tawny.vercel.app
 
-## 🗄️ MongoDB OpenURI (for testing)
-mongodb+srv://user:I5lbNVxyR0egDBHL@leaderboard.dhgvj8d.mongodb.net/leaderboard
-
-## 🔗 GitHub Repositories
-
-- **Repo:** [GitHub](https://github.com/subho174/leaderboard)
-
 ---
 
 ## 📌 Bonus Features Implemented
